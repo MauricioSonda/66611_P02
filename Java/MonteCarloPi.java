@@ -95,6 +95,7 @@ public class MonteCarloPi extends JPanel {
     public void repetirSimulacion() {
         simular();
         repaint();
+        
     }
 
     public static void main(String[] args) {
