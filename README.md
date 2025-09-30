@@ -1,9 +1,10 @@
 Metricas de Rendimiento:
-con 1 hilo = 86ms
-con 2 hilos = 45ms
+Secuencial = 46ms
+Paralelo = 31ms
+procesadores: 2
 
-Speedup: 86ms/45ms = 1.91 más rapido
+Speedup: 46ms/31ms = 1.48 más rapido
 
-Eficiencia: (1.91 / 2) * 100 = 95% de eficiencia
+Eficiencia: (1.48 / 2) * 100 = 74.2% de eficiencia
 
-Overhead: (2 * 45ms) - 86ms = 4ms de gestión
+Overhead: (2 * 31ms) - 46ms = 16ms de gestión
